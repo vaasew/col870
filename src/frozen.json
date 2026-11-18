@@ -1,0 +1,22 @@
+{
+  "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+  "revision": "b2cff646eb4bb1d68355c01b18ae02e7cf42d120",
+  "dtype": "bfloat16",
+  "quantization": null,
+  "context": 16384,
+  "temperature": 0.99,
+  "top_p": 0.95,
+  "max_tokens": 8000,
+  "evaluations": 500,
+  "memory_tokens": 384,
+  "commitment_lengths": [
+    4
+  ],
+  "lambda": {
+    "prism": 0.25,
+    "cloudcast": 1.0,
+    "signal_processing": 1.0,
+    "heilbronn_triangle": 1.0,
+    "circle_packing_rect": 0.25
+  }
+}
